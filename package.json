@@ -1,0 +1,22 @@
+{
+  "name": "pokedex-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "author": "Gabriel Alves",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "eslint": "^8.53.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
